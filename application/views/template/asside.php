@@ -92,36 +92,6 @@
                     </a>
                 </li>
 
-                <!-- laporan -->
-                <li class="nav-item has-treeview <?= $this->uri->segment(2) == 'pengguna' | $this->uri->segment(2) == 'pendapatan' ? 'menu-open' : '' ?>">
-                    <a href="#" class="nav-link">
-                        <i class="nav-icon fas fa-book"></i>
-                        <p>
-                            Laporan
-                            <i class="right fas fa-angle-left"></i>
-                        </p>
-                    </a>
-                    <ul class="nav nav-treeview">
-                        <li class="nav-item">
-                            <a href="<?= site_url('pengguna/kasir') ?>" class="nav-link <?= $this->uri->segment(2) == 'pengguna' ? 'active' : '' ?>">
-                                <i class="far fa-user nav-icon"></i>
-                                <p>Pengguna</p>
-                            </a>
-                        </li>
-                        <li class="nav-item">
-                            <a href="<?= site_url('pengguna/admin') ?>" class="nav-link <?= $this->uri->segment(2) == 'pendapatan' ? 'active' : '' ?>">
-                                <i class="fa fa-dollar-sign nav-icon"></i>
-                                <p>Pendapatan</p>
-                            </a>
-                        </li>
-                        <!-- <li class="nav-item">
-                            <a href="<?= site_url('pengguna/dokter') ?>" class="nav-link <?= $this->uri->segment(2) == 'dokter' ? 'active' : '' ?>">
-                                <i class="fas fa-user-md nav-icon"></i>
-                                <p>Dokter</p>
-                            </a>
-                        </li> -->
-                    </ul>
-                </li>
             </ul>
         </nav>
     </div>
